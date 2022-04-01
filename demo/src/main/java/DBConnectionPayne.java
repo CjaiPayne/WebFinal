@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 
 public class DBConnectionPayne {
    static Connection connection = null;
-
+// commit
    static void getDBConnection() {
       System.out.println("-------- MySQL JDBC Connection Testing ------------");
       try {
